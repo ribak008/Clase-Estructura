@@ -1,0 +1,54 @@
+.fondo-imagen{
+    background-image: url(../img/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg);
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*padding*/
+.padding{
+    padding: 3%;
+}
+.centrar-texto{
+    text-align: center;
+}
+.color-fondo-1{
+    background-color: #4b9dbf ;
+}
+.color-fondo-2{
+    background-color: #72abc8  ;
+}
+.color-fondo-3{
+    background-color: #88b3cd  ;
+}
+.color-fondo-4{
+    background-color: #a8c2d6  ;
+}
+.color-fondo-5{
+    background-color: #9aacc4 ;
+}
+.color-fondo-6{
+    background-color: #9cacbc ;
+}
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #183846;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: .8rem;
+    padding-top: ;
+    background-color: #72abc8;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+
+header h1:hover{
+    cursor: grab;
+    background-color: #327b9b;
+    transition: .5s ease-in-out;
+    
+}
+
