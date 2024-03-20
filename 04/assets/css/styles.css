@@ -37,13 +37,39 @@ header h1{
     margin: 0 auto;
     margin-top: 20px;
     border-radius: .8rem;
-    padding-top: ;
     background-color: #72abc8;
     text-align: center;
     padding-top: .5rem;
     padding-bottom: .5rem;
 
+
 }
+
+nav ul{
+    display: flex ; /**/
+    flex-direction: row; /*como ordenar la lista "row/column"*/
+    list-style: none;
+    background-color: #327b9b;
+    justify-content: space-around; /*DAR ESPACIO ENTRE LOS ELEMENTOS DE LA LISTA*/
+    margin: 0 auto;
+    padding-left: 0;
+    margin-top:  2rem;
+    max-width: 80%;
+    color: #9aacc4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Times New Roman', Times, serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: .3rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+}
+nav ul li:hover{
+    cursor: pointer;
+    background-color: #255a70;
+    padding:0% 1% 0% 1%;
+    transition: .3s ease-in-out;
+    border-radius: 3%;
+}
+
 
 header h1:hover{
     cursor: grab;
@@ -51,4 +77,16 @@ header h1:hover{
     transition: .5s ease-in-out;
     
 }
+
+@media (min-width: 300px)  and (max-width: 700px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0%;
+    }
+}
+    
+
 
